@@ -35,10 +35,9 @@ Jackson core and Jackson bind : These dependecnies are helpful to read and write
 **Producers --> Topics --> Partitions --> Brokers --> Cluster --> ZooKeeper/KRaft --> Consumers
 
     |            |            |            |            |            |            |
-    v            v            v            v            v            v            v
-    
-  Send        Organize     Subdivide    Store &     Group &     Manage        Read
- Messages     Messages     Messages     Manage     Coordinate  Metadata     Messages**
+    v            v            v            v            v            v            v    
+  Send         Organize      Subdivide     Store &     Group &     Manage        Read
+ Messages      Messages      Messages      Manage     Coordinate  Metadata     Messages**
 
 Kafka Connect <--> External Systems
 Kafka Streams <--> Stream Processing
