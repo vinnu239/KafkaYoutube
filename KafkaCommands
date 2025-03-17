@@ -1,0 +1,17 @@
+
+#After downloading zookeeper and Kafaka use the below commands to run Zookeeper and kafka server inside windows folder
+
+// kafka commands///
+
+running the zookeeper after going inside bin/windows folder
+
+zookeeper-server-start.bat ..\..\config\zookeeper.properties.
+
+
+running the kafka server which internally start the broker
+
+kafka-server-start.bat ..\..\config\server.properties.
+
+Check the data present inside topic
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic your_topic_name --from-beginning
