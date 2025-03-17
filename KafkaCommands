@@ -1,5 +1,8 @@
 
 #After downloading zookeeper and Kafaka use the below commands to run Zookeeper and kafka server inside windows folder
+Below is the url where i have downloaded Kafka and zookeepr
+
+https://kafka.apache.org/quickstart
 
 // kafka commands///
 
