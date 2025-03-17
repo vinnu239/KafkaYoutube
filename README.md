@@ -33,16 +33,19 @@ Websockets: bidirectional
 Jackson core and Jackson bind : These dependecnies are helpful to read and write the JSON data and bind help us to convert JSON to java(POJO) object.
 
 **Producers --> Topics --> Partitions --> Brokers --> Cluster --> ZooKeeper/KRaft --> Consumers
-
     |            |            |            |            |            |            |
     v            v            v            v            v            v            v    
   Send         Organize      Subdivide     Store &     Group &     Manage        Read
  Messages      Messages      Messages      Manage     Coordinate  Metadata     Messages**
 
 Kafka Connect <--> External Systems
+
 Kafka Streams <--> Stream Processing
+
 Schema Registry <--> Schema Management
+
 Offsets <--> Track Message Position
+
 Detailed Flow with Clusters
 
 **Producers**:
